@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6ni+lFYfsy8=",
+  "dgSpecHash": "gZn0ukPhvXQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\PokemonLike.csproj",
+  "projectFilePath": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\PokemonGit\\PokemonBeLike\\PokemonLike\\PokemonLike\\PokemonLike.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MV_pe\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\MV_pe\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

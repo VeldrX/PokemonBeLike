@@ -4825,11 +4825,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\PokemonLike.csproj",
+      "projectUniqueName": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\PokemonGit\\PokemonBeLike\\PokemonLike\\PokemonLike\\PokemonLike.csproj",
       "projectName": "PokemonLike",
-      "projectPath": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\PokemonLike.csproj",
+      "projectPath": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\PokemonGit\\PokemonBeLike\\PokemonLike\\PokemonLike\\PokemonLike.csproj",
       "packagesPath": "C:\\Users\\MV_pe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\obj\\",
+      "outputPath": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\PokemonGit\\PokemonBeLike\\PokemonLike\\PokemonLike\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

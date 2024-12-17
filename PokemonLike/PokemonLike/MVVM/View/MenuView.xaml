@@ -8,34 +8,137 @@
              d:DataContext="{d:DesignInstance Type=viewmodel:MenuViewVM}"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="Gray">
-        <!-- Define Rows -->
+
+    <UserControl.Resources>
+        <!-- Custom Button Style -->
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="5"/>
+
+            <!-- Button Template -->
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                CornerRadius="20" 
+                                SnapsToDevicePixels="True">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#B3A125"/>
+                    <!-- Doré -->
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#CC0000"/>
+                    <!-- Rouge foncé -->
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <!-- Dégradé du bleu au bleu clair -->
+                <GradientStop Color="#3B4CCA" Offset="0.0"/>
+                <!-- Bleu foncé -->
+                <GradientStop Color="#7B98D7" Offset="0.5"/>
+                <!-- Bleu clair -->
+                <GradientStop Color="#A5C6D9" Offset="1.0"/>
+                <!-- Bleu pâle -->
+            </LinearGradientBrush>
+        </Grid.Background>
+
         <Grid.RowDefinitions>
-            <RowDefinition Height="1*" />
-            <!-- For the Title -->
             <RowDefinition Height="2*" />
-            <!-- For Buttons -->
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="3*" />
         </Grid.RowDefinitions>
-        <!-- Define Columns -->
+
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="3*" />
             <ColumnDefinition Width="1*" />
-            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
-        <TextBlock Text="{Binding PlayerName}" FontSize="20
-                   " FontWeight="Bold" Foreground="White" 
-           HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.ColumnSpan="3"/>
-        <!-- Title -->
-        <TextBlock Text="Pokemon" FontSize="40" FontWeight="Bold" Foreground="White" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" Grid.ColumnSpan="3"/>
-        <Button Content="Register" Width="100" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="0" Command="{Binding NavigateRegisterCommand}" Margin="0,100,0,0"/>
-        <Button Content="Login" Width="100" Height="50" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="0" Grid.Column="2" Command="{Binding NavigateLoginCommand}"/>
+
+        <!-- Title Section -->
+        <TextBlock Text="Pokemon" 
+                   FontSize="60" 
+                   FontWeight="Bold" 
+                   FontFamily="Segoe Print" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center" 
+                   Grid.Row="0" 
+                   Grid.ColumnSpan="3">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="1" 
+                                  Color="#FF0000" 
+                                  Opacity="1" 
+                                  BlurRadius="20"/>
+            </TextBlock.Effect>
+            <TextBlock.Foreground>
+                <SolidColorBrush Color="#FFDE00"/>
+                <!-- Jaune -->
+            </TextBlock.Foreground>
+        </TextBlock>
+
+        <!-- Player Info -->
+        <TextBlock Text="{Binding PlayerName}" 
+           FontSize="36" 
+           FontWeight="Bold" 
+           FontFamily="Segoe Print" 
+           HorizontalAlignment="Center" 
+           VerticalAlignment="Center" 
+           Grid.Row="1" 
+           Grid.ColumnSpan="3" 
+           Margin="0,10,0,10">
+
+    <!-- Contour bleu -->
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="0" 
+                          Color="#3B4CCA" 
+                          Opacity="0.8" 
+                          BlurRadius="8"/>
+            </TextBlock.Effect>
+
+    <!-- Dégradé de couleur pour le texte -->
+            <TextBlock.Foreground>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#FFDE00" Offset="0.0"/>
+                    <!-- Jaune -->
+                    <GradientStop Color="#B3A125" Offset="1.0"/>
+                    <!-- Doré -->
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
 
-        <!-- Play Button -->
-        <Button Content="Play" Width="100" Height="50" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Command="{Binding NavigateGameCommand}"/>
-        <!-- Settings Button -->
-        <Button Command="{Binding NavigateSettingCommand}" Content="Settings" Width="100" Height="50" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Grid.Column="2" />
+        <!-- Buttons in Quadrant -->
+        <Grid Grid.Row="2" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
 
+            <Button Content="Register" Background="#FF0000" Command="{Binding NavigateRegisterCommand}" Grid.Row="0" Grid.Column="0" />
+            <Button Content="Login" Background="#CC0000" Command="{Binding NavigateLoginCommand}" Grid.Row="0" Grid.Column="1" />
+            <Button Content="Play" Background="#B3A125" Command="{Binding NavigateGameCommand}" Grid.Row="1" Grid.Column="0" />
+            <Button Content="Settings" Background="#B5D153" Command="{Binding NavigateSettingCommand}" Grid.Row="1" Grid.Column="1" />
+        </Grid>
     </Grid>
 </UserControl>

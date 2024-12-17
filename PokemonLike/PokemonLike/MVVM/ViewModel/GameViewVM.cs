@@ -9,7 +9,7 @@ namespace PokemonLike.MVVM.ViewModel
     internal class GameViewVM : BaseVM
     {
         private Player _currentPlayer;
-        private Monster _monsterOfPlayer;
+        //private Monster _monsterOfPlayer;
         private Monster _monsterOfEnnemy;
         private readonly ExerciceMonsterContext _dbContext;
 
