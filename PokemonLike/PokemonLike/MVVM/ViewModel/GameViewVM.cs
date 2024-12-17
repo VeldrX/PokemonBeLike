@@ -12,9 +12,8 @@ namespace PokemonLike.MVVM.ViewModel
     {
         private Player _currentPlayer;
         //private Monster _monsterOfPlayer;
-        private Monster _monsterOfEnnemy;
         private readonly ExerciceMonsterContext _dbContext;
-        private int _monsterOfEnnemyHP;
+        
         private int _monsterOfEnnemyCurrentHP;
 
         // Propriétés pour le monstre du joueur
@@ -27,7 +26,7 @@ namespace PokemonLike.MVVM.ViewModel
         // Propriétés pour le monstre de l'ennemi
 
 
-
+        private Monster _monsterOfEnnemy;
         public Monster MonsterOfEnnemy
         {
             get => _monsterOfEnnemy;
@@ -36,11 +35,12 @@ namespace PokemonLike.MVVM.ViewModel
                 if (_monsterOfEnnemy != value)
                 {
                     _monsterOfEnnemy = value;
-                    OnPropertyChanged(nameof(MonsterOfEnnemy));  // Notifier la vue de la modification
+                    OnPropertyChanged(nameof(MonsterOfEnnemy));  // Notifier la vue
                 }
             }
         }
 
+        private int _monsterOfEnnemyHP;
         public int MonsterOfEnnemyHP
         {
             get => _monsterOfEnnemyHP;

@@ -1,7 +1,7 @@
 # Monster Battle - Jeu de Combat de Monstres
 
 ## Description
-Monster Battle est un jeu de combat de monstres développé en C# avec WPF (Windows Presentation Foundation). Le joueur affronte des monstres ennemis générés aléatoirement en utilisant les capacités de son propre monstre. Le jeu propose un système de gestion des points de vie, des attaques, et une fonctionnalité de relance pour générer un nouvel adversaire.
+Ceci est un jeu de combat de monstres développé en C# avec WPF (Windows Presentation Foundation) pour un projet scolaire. Le joueur affronte des monstres ennemis générés aléatoirement en utilisant les capacités de son propre monstre. Le jeu propose un système de Pokedex et d'une liste des Compétences disponibles , les 2 ont une possibilité de voir plus en détail le Pokemon ou la Compétence. Le jeu dois contenir un systeme de combat pas encore fonctionnel.
 
 ---
 
@@ -23,10 +23,10 @@ Monster Battle est un jeu de combat de monstres développé en C# avec WPF (Wind
 ## Installation
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/monster-battle.git
+   git clone https://github.com/VeldrX/PokemonBeLike.git
    ```
 2. Ouvrez le projet dans Visual Studio.
-3. Restaurez les packages NuGet requis.
+3. Restaurez les packages NuGet requis si besoin.
 4. Lancez l'application.
 
 ---
@@ -36,8 +36,15 @@ Monster Battle est un jeu de combat de monstres développé en C# avec WPF (Wind
 
 ## Utilisation
 1. **Lancer le jeu** : Exécutez l'application.
-2. **Aller dans les Settings** : Dans Setting vous avez la possibilité de lier votre base de donné en donnant l'adresse du server sql (exemple : ).
-3. **Relancer le combat** : Cliquez sur le bouton "Relancer" pour générer un nouveau monstre ennemi.
+2. **Aller dans les Settings** : Dans Setting vous avez la possibilité de lier votre base de donné en donnant l'adresse du server sql (exemple :  "Server=MV_PERSONAL_LAP\SQLEXPRESS;Database=ExerciceMonster;Trusted_Connection=True;TrustServerCertificate=True;";).
+3. **Crée un compte** : Sur register vous avez la possibilité de crée un compte.
+3. **Se connecter** : Sur Login vous pouvez vous connecté a votre compte.
+3. **Jouer** : Le bouton Play vous envoie directement sur la page principale du jeu le combat (peu fonctionnel)
+3. **Pokedex** : Vous avez la possibilité d'accedé au Pokédex qui répertorie tous les pokémons du jeu , de plus vous avez 2 possibilités : 
+    - Soit selectionné le pokémon pour l'utiliser en combat
+    - Soit aller voir ses information
+3. **AbilityDex** : Vous avez la possibilité d'accedé a l'AbilityDex qui répertorie toute les compétences du jeu , de plus vous avez la possibilité d'aller voir ses informations.
+
 
 ---
 
@@ -45,7 +52,7 @@ Monster Battle est un jeu de combat de monstres développé en C# avec WPF (Wind
 - **Langage** : C#
 - **Framework** : WPF (.NET 6)
 - **ORM** : Entity Framework Core
-- **Base de données** : SQLite
+- **Base de données** : SQL
 
 ---
 
@@ -60,18 +67,13 @@ Les contributions sont les bienvenues ! Veuillez suivre ces étapes :
 ---
 
 ## Auteurs
-- **Nom** : Votre Nom
-- **Contact** : votre.email@example.com
+- **Nom** : VassyMathis
+- **Contact** : mathisvassypro@gmail.com
 
 ---
 
-## Licence
-Ce projet est sous licence MIT. Consultez le fichier `LICENSE` pour plus de détails.
-
 ---
 
-## Remerciements
-- Merci à tous les contributeurs et développeurs qui ont aidé à construire ce projet.
 
 ---
 
