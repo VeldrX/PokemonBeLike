@@ -5,26 +5,55 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:PokemonLike.MVVM.View"
              xmlns:viewmodel="clr-namespace:PokemonLike.MVVM.ViewModel"
-d:DataContext="{d:DesignInstance Type=viewmodel:AbilityListeViewVM}"
+             d:DataContext="{d:DesignInstance Type=viewmodel:AbilityListeViewVM}"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="Gray">
+    <Grid Background="#2C3E50">
+        <!-- Retour Button -->
         <Button Content="Retour"
-            Command="{Binding NavigateToGameCommand}"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Margin="20"
-            Width="40" />
-        <ListBox ItemsSource="{Binding Abilities}" Margin="80,20,20,20">
+                Command="{Binding NavigateToGameCommand}"
+                HorizontalAlignment="Left"
+                Margin="20"
+                Width="50"
+                Height="40"
+                Background="#2980B9"
+                Foreground="White"
+                BorderBrush="Transparent"
+                BorderThickness="1"
+                FontWeight="Bold"
+                FontFamily="Segoe UI, Arial, sans-serif"
+                
+                VerticalAlignment="Top"
+                />
+
+        <!-- ListBox with Abilities -->
+        <ListBox ItemsSource="{Binding Abilities}" Margin="80,20,20,20" 
+                 Background="#2C3E70" BorderBrush="Black" BorderThickness="1" 
+                 Padding="10" >
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="{Binding Id}" Width="50" Margin="5"/>
-                        <TextBlock Text="{Binding Name}" Margin="5"/>
+                    <StackPanel Orientation="Horizontal" Margin="5">
+                        <!-- Ability ID -->
+                        <Border Background="#F39C12" CornerRadius="5" Padding="10">
+                            <TextBlock Text="{Binding Id}" Width="50" Margin="5" FontWeight="Bold" Foreground="White"/>
+                        </Border>
+
+                        <!-- Ability Name -->
+                        <TextBlock Text="{Binding Name}" Margin="5" FontSize="18" VerticalAlignment="Center" Foreground="White" FontFamily="Segoe UI" />
+
+                        <!-- View Button -->
                         <Button Content="View"
-                            Command="{Binding DataContext.NavigateToAbilityInfoCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
-                            CommandParameter="{Binding}" 
-                            Margin="5" Width="80"/>
+                                Command="{Binding DataContext.NavigateToAbilityInfoCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
+                                CommandParameter="{Binding}" 
+                                Margin="5" Width="100" Height="35"
+                                Background="#9B59B6"
+                                Foreground="White"
+                                BorderBrush="Transparent"
+                                BorderThickness="1"
+                                FontWeight="Bold"
+                                FontFamily="Segoe UI"
+                                VerticalAlignment="Center"
+                                 />
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>

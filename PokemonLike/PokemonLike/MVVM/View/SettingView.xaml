@@ -8,42 +8,128 @@
              d:DataContext="{d:DesignInstance Type=viewmodel:SettingViewVM}"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="Gray">
-        <!-- Center Content Definition -->
-        
+    <UserControl.Resources>
+        <!-- Custom Button Style -->
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="5"/>
+
+            <!-- Button Template -->
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                CornerRadius="20" 
+                                SnapsToDevicePixels="True">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FF5722"/>
+                    <!-- Orange on hover -->
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#D32F2F"/>
+                    <!-- Red on click -->
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#2196F3" Offset="0.0"/>
+                <!-- Blue -->
+                <GradientStop Color="#BBDEFB" Offset="0.5"/>
+                <!-- Light blue -->
+                <GradientStop Color="#64B5F6" Offset="1.0"/>
+                <!-- Sky blue -->
+            </LinearGradientBrush>
+        </Grid.Background>
+
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <!-- Menu Button -->
+            <RowDefinition Height="Auto" />
+            <!-- Current Connection Text -->
+            <RowDefinition Height="Auto" />
+            <!-- URL Database Section -->
+            <RowDefinition Height="Auto" />
+            <!-- Save Button -->
             <RowDefinition Height="*" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
+            <!-- Spacer to center content -->
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
-            <!-- Left Spacer -->
             <ColumnDefinition Width="Auto" />
-            <!-- Label Column -->
             <ColumnDefinition Width="Auto" />
-            <!-- Input Column -->
             <ColumnDefinition Width="*" />
-            <!-- Right Spacer -->
         </Grid.ColumnDefinitions>
 
-        <!-- Username Section -->
-        <Button Content="Menu" VerticalAlignment="Top" Grid.Row="0" Grid.Column="1" Command="{Binding NavigateMenuCommand}"/>
-        <TextBlock Text="Current : " VerticalAlignment="Center" FontSize="12" Margin="10"
-   Grid.Row="0" Grid.Column="1" HorizontalAlignment="Right" />
-        <TextBlock Text="{Binding CurrentConnectionDisplay}" VerticalAlignment="Center" FontSize="12" Margin="10"
-           Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right" />
-        <TextBox x:Name="URLBox" Width="200" Height="30" Margin="10" Grid.Row="1" Grid.Column="2" Text="{Binding DatabaseConnection, UpdateSourceTrigger=PropertyChanged}"/>
+        <!-- Menu Button -->
+        <Button Content="Menu" 
+                Command="{Binding NavigateMenuCommand}"
+                Grid.Row="0" 
+                Grid.Column="1" 
+                Grid.ColumnSpan="2" 
+                HorizontalAlignment="Center"
+                Background="#FF5722" 
+                Foreground="White" />
 
+        <!-- Current Connection Text -->
+        <TextBlock Text="Current : " 
+                  VerticalAlignment="Center" 
+                  FontSize="12" 
+                  Margin="10" 
+                  Grid.Row="1" 
+                  Grid.Column="1" 
+                  HorizontalAlignment="Right" 
+                  Foreground="Black"/>
+
+        <TextBlock Text="{Binding CurrentConnectionDisplay}" 
+                  VerticalAlignment="Center" 
+                  FontSize="12" 
+                  Margin="10"
+                  Grid.Row="1" 
+                  Grid.Column="2" 
+                  HorizontalAlignment="Left" 
+                  Foreground="Black"/>
+
+        <!-- URL Database Section -->
+        <TextBox x:Name="URLBox" 
+                 Width="250" 
+                 Height="30" 
+                 Margin="10" 
+                 Grid.Row="2" 
+                 Grid.Column="1" 
+                 Grid.ColumnSpan="2"
+                 Text="{Binding DatabaseConnection, UpdateSourceTrigger=PropertyChanged}" 
+                 Background="#FFFFFF" 
+                 Foreground="#2196F3"/>
 
         <!-- Save Button -->
-        <Button Content="Save" Width="100" Height="30" Margin="10" 
-        Command="{Binding SaveCommand}" 
-        Grid.Row="4" Grid.ColumnSpan="2" Grid.Column="1" 
-        HorizontalAlignment="Center" />
+        <Button Content="Save" 
+                Width="150" 
+                Height="50" 
+                Margin="10" 
+                Command="{Binding SaveCommand}" 
+                Grid.Row="3" 
+                Grid.ColumnSpan="2" 
+                Grid.Column="1" 
+                HorizontalAlignment="Center" 
+                Background="#4CAF50" 
+                Foreground="White"/>
     </Grid>
 </UserControl>

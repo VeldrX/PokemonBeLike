@@ -8,7 +8,9 @@
              d:DataContext="{d:DesignInstance Type=viewmodel:PokemonInfoViewVM}"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="White">
+    <Grid Background="#2C3E50">
+
+        <!-- Fond principal -->
         <!-- Grid Definitions -->
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -19,53 +21,65 @@
         </Grid.ColumnDefinitions>
 
         <!-- Retour Button -->
-        <Button Content="Retour" HorizontalAlignment="Left" VerticalAlignment="Top"
-                Margin="10" Width="80" Height="30" Command="{Binding NavigatePokemonListCommand}"/>
+        <Button Content="Retour"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Margin="20"
+                Width="90"
+                Height="35"
+                Command="{Binding NavigatePokemonListCommand}"
+                Background="#2980B9"  
+            Foreground="White"
+                FontFamily="Segoe UI, Arial, sans-serif"
+                FontWeight="Bold"
+                BorderBrush="Transparent"
+                BorderThickness="1"
+                 />
 
-        <!-- Main Content -->
-        <Grid Grid.Row="1" Margin="20">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="2*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
+            <!-- Main Content -->
+            <Grid Grid.Row="1" Margin="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
 
-            <!-- Image Section -->
-            <Border CornerRadius="10" Background="LightGray" Margin="10"
+                <!-- Image Section -->
+                <Border CornerRadius="15" Background="#BDC3C7" Margin="10"
                     Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Image Placeholder" HorizontalAlignment="Center" VerticalAlignment="Center"
-                           FontStyle="Italic" Foreground="DarkGray" />
-            </Border>
+                    <TextBlock Text="Image Placeholder" HorizontalAlignment="Center" VerticalAlignment="Center"
+                           FontStyle="Italic" Foreground="White" FontSize="16" FontFamily="Segoe UI" />
+                </Border>
 
-            <!-- Info Section -->
-            <StackPanel Grid.Column="1" Margin="10">
-                <!-- No° and Name -->
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
-                    <TextBlock Text="No°:" FontWeight="Bold" FontSize="14" VerticalAlignment="Center" Margin="0,0,10,0" />
-                    <TextBlock Text="{Binding Id}" FontSize="14" Margin="0,0,0,10" />
-                    <TextBlock Text="Name:" FontWeight="Bold" FontSize="14" VerticalAlignment="Center" Margin="0,0,10,0" />
-                    <TextBlock Text="{Binding Name}" FontSize="14" Margin="0,0,0,10" />
+                <!-- Info Section -->
+                <StackPanel Grid.Column="1" Margin="10">
+                    <!-- No° and Name -->
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,15">
+                        <TextBlock Text="No°:" FontWeight="Bold" FontSize="18" VerticalAlignment="Center" Margin="0,0,10,0" Foreground="White" FontFamily="Segoe UI"/>
+                    <TextBlock Text="{Binding Id}" FontSize="18" Margin="0,0,0,10" Foreground="White" FontFamily="Segoe UI"/>
+                    <TextBlock Text="Name:" FontWeight="Bold" FontSize="18" VerticalAlignment="Center" Margin="20,0,10,0" Foreground="White" FontFamily="Segoe UI"/>
+                    <TextBlock Text="{Binding Name}" FontSize="18" Margin="0,0,0,10" Foreground="White" FontFamily="Segoe UI"/>
+                    </StackPanel>
+
+                    <!-- HP Section -->
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
+                    <TextBlock Text="HP:" FontWeight="Bold" FontSize="18" VerticalAlignment="Center" Margin="0,0,10,0" Foreground="White" FontFamily="Segoe UI"/>
+                    <TextBlock Text="{Binding Health}" FontSize="18" Margin="0,0,0,10" Foreground="White" FontFamily="Segoe UI"/>
+                    </StackPanel>
+
+                    <!-- Skills Section -->
+                <TextBlock Text="Skills" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,10" Foreground="White" FontFamily="Segoe UI"/>
+
+                    <!-- Display Skills -->
+                    <ListBox ItemsSource="{Binding Spells}" Margin="0,0,0,0" Background="Black" BorderBrush="#BDC3C7" BorderThickness="1" >
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                <TextBlock Text="{Binding Name}" FontSize="18" Margin="0,0,0,5" Foreground="Cyan" FontFamily="Segoe UI"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
                 </StackPanel>
-
-                <!-- HP -->
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
-                    <TextBlock Text="HP:" FontWeight="Bold" FontSize="14" VerticalAlignment="Center" Margin="0,0,10,0" />
-                    <TextBlock Text="{Binding Health}" FontSize="14" Margin="0,0,0,10" />
-                </StackPanel>
-
-                <!-- Skills Section -->
-                <TextBlock Text="Skills" FontWeight="Bold" FontSize="16" HorizontalAlignment="Center" Margin="0,0,0,10" />
-
-                <!-- Display Skills -->
-                <ListBox ItemsSource="{Binding Spells}" Margin="0,0,0,0">
-                    <ListBox.ItemTemplate>
-                        <DataTemplate>
-                            <StackPanel>
-                                <TextBlock Text="{Binding Name}" FontSize="14" Margin="0,0,0,5"/>
-                            </StackPanel>
-                        </DataTemplate>
-                    </ListBox.ItemTemplate>
-                </ListBox>
-            </StackPanel>
-        </Grid>
+            </Grid>
     </Grid>
 </UserControl>
