@@ -59,7 +59,8 @@
         <!-- Battle Buttons Section -->
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10,0,10,40" Orientation="Vertical">
             <Button Content="Relancer un Combat" Width="200" Margin="5" Command="{Binding RestartBattleCommand}"
-                    Background="#3498DB" Foreground="White" BorderBrush="Transparent" BorderThickness="1" />
+        Background="#3498DB" Foreground="White" BorderBrush="Transparent" BorderThickness="1" />
+
         </StackPanel>
 
         <!-- Skill Buttons Section -->

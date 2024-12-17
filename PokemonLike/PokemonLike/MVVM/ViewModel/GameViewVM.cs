@@ -1,4 +1,6 @@
 ﻿using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Windows;
 using System.Windows.Input;
 using CommunityToolkit.Mvvm.Input;
 using Microsoft.EntityFrameworkCore;
@@ -12,6 +14,8 @@ namespace PokemonLike.MVVM.ViewModel
         //private Monster _monsterOfPlayer;
         private Monster _monsterOfEnnemy;
         private readonly ExerciceMonsterContext _dbContext;
+        private int _monsterOfEnnemyHP;
+        private int _monsterOfEnnemyCurrentHP;
 
         // Propriétés pour le monstre du joueur
         public Monster MonsterOfPlayer { get; set; }
@@ -21,9 +25,47 @@ namespace PokemonLike.MVVM.ViewModel
 
 
         // Propriétés pour le monstre de l'ennemi
-        public Monster MonsterOfEnnemy { get; set; }
-        public int MonsterOfEnnemyHP { get; set; }
-        public int MonsterOfEnnemyCurrentHP { get; set; }
+
+
+
+        public Monster MonsterOfEnnemy
+        {
+            get => _monsterOfEnnemy;
+            set
+            {
+                if (_monsterOfEnnemy != value)
+                {
+                    _monsterOfEnnemy = value;
+                    OnPropertyChanged(nameof(MonsterOfEnnemy));  // Notifier la vue de la modification
+                }
+            }
+        }
+
+        public int MonsterOfEnnemyHP
+        {
+            get => _monsterOfEnnemyHP;
+            set
+            {
+                if (_monsterOfEnnemyHP != value)
+                {
+                    _monsterOfEnnemyHP = value;
+                    OnPropertyChanged(nameof(MonsterOfEnnemyHP));  // Notifier la vue de la modification
+                }
+            }
+        }
+
+        public int MonsterOfEnnemyCurrentHP
+        {
+            get => _monsterOfEnnemyCurrentHP;
+            set
+            {
+                if (_monsterOfEnnemyCurrentHP != value)
+                {
+                    _monsterOfEnnemyCurrentHP = value;
+                    OnPropertyChanged(nameof(MonsterOfEnnemyCurrentHP));  // Notifier la vue de la modification
+                }
+            }
+        }
 
         // Liste des compétences du monstre du joueur
         public ObservableCollection<Spell> MonsterOfPlayerSpells { get; set; }
@@ -32,6 +74,8 @@ namespace PokemonLike.MVVM.ViewModel
         public ICommand NavigatePokemonListCommand { get; }
         public ICommand NavigateAbilityListCommand { get; }
         public ICommand NavigateMenuCommand { get; }
+        public ICommand RestartBattleCommand { get; }
+
 
         public string PlayerName => _currentPlayer?.Name;
 
@@ -46,6 +90,38 @@ namespace PokemonLike.MVVM.ViewModel
             NavigatePokemonListCommand = new RelayCommand(NavigateToPokemonList);
             NavigateAbilityListCommand = new RelayCommand(NavigateToAbilityList);
             NavigateMenuCommand = new RelayCommand(NavigateToMenu);
+            RestartBattleCommand = new RelayCommand(RestartBattle);  // Commande de relance du combat
+
+        }
+
+        private void RestartBattle()
+        {
+            MessageBox.Show("Commande de relance appelée");
+
+            // Régénérer un monstre ennemi aléatoire
+            Random rand = new Random();
+            _monsterOfEnnemy = _dbContext.Monsters
+                .AsEnumerable()  // Charger tous les monstres en mémoire
+                .OrderBy(m => rand.Next())  // Mélanger les monstres en mémoire
+                .FirstOrDefault();  // Sélectionner un monstre aléatoire
+
+            if (_monsterOfEnnemy != null)
+            {
+                // Mettre à jour les propriétés et notifier l'interface utilisateur
+                MonsterOfEnnemy = _monsterOfEnnemy;
+                MonsterOfEnnemyHP = _monsterOfEnnemy.Health;
+                MonsterOfEnnemyCurrentHP = MonsterOfEnnemyHP;
+            }
+
+            // Réinitialiser les HP du joueur et de son monstre
+            MonsterOfPlayerCurrentHP = MonsterOfPlayerHP;  // Réinitialiser les HP du joueur
+        }
+
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected virtual void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
         // Charger le joueur et ses monstres associés, et aussi un monstre ennemi aléatoire
