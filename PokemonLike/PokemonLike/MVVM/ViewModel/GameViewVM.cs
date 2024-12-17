@@ -1,6 +1,5 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Windows;
 using System.Windows.Input;
 using CommunityToolkit.Mvvm.Input;
 using Microsoft.EntityFrameworkCore;
@@ -10,10 +9,30 @@ namespace PokemonLike.MVVM.ViewModel
 {
     internal class GameViewVM : BaseVM
     {
+
+        private string _battleLog;
+        public string BattleLog
+        {
+            get => _battleLog;
+            set
+            {
+                if (_battleLog != value)
+                {
+                    _battleLog = value;
+                    OnPropertyChanged(nameof(BattleLog));
+                }
+            }
+        }
+
+        // Commande pour utiliser une compétence
+        public ICommand UseSkillCommand { get; }
+
+
+
         private Player _currentPlayer;
         //private Monster _monsterOfPlayer;
         private readonly ExerciceMonsterContext _dbContext;
-        
+
         private int _monsterOfEnnemyCurrentHP;
 
         // Propriétés pour le monstre du joueur
@@ -91,12 +110,26 @@ namespace PokemonLike.MVVM.ViewModel
             NavigateAbilityListCommand = new RelayCommand(NavigateToAbilityList);
             NavigateMenuCommand = new RelayCommand(NavigateToMenu);
             RestartBattleCommand = new RelayCommand(RestartBattle);  // Commande de relance du combat
+            UseSkillCommand = new RelayCommand<Spell>(UseSkill);
+
 
         }
 
+        private void UseSkill(Spell skill)
+        {
+            if (skill != null)
+            {
+                BattleLog = $"{PlayerName} a utilisé {skill.Name}";
+                // Forcer une notification même si la valeur n'a pas changé
+                OnPropertyChanged(nameof(BattleLog));
+            }
+        }
+
+
+
         private void RestartBattle()
         {
-            MessageBox.Show("Commande de relance appelée");
+
 
             // Régénérer un monstre ennemi aléatoire
             Random rand = new Random();
@@ -115,6 +148,8 @@ namespace PokemonLike.MVVM.ViewModel
 
             // Réinitialiser les HP du joueur et de son monstre
             MonsterOfPlayerCurrentHP = MonsterOfPlayerHP;  // Réinitialiser les HP du joueur
+            MainWindowVM.OnRequestChangeVM?.Invoke(new GameViewVM());
+
         }
 
 

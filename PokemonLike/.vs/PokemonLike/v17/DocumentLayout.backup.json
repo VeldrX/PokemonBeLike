@@ -30,6 +30,7 @@
               "RelativeToolTip": "PokemonLike\\MVVM\\View\\GameView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-17T16:36:53.474Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -38,9 +39,9 @@
               "Title": "GameViewVM.cs",
               "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\PokemonGit\\PokemonBeLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\GameViewVM.cs",
               "RelativeDocumentMoniker": "PokemonLike\\MVVM\\ViewModel\\GameViewVM.cs",
-              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\PokemonGit\\PokemonBeLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\GameViewVM.cs*",
-              "RelativeToolTip": "PokemonLike\\MVVM\\ViewModel\\GameViewVM.cs*",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAmwHQAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\PokemonGit\\PokemonBeLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\GameViewVM.cs",
+              "RelativeToolTip": "PokemonLike\\MVVM\\ViewModel\\GameViewVM.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAYwIsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T16:36:21.377Z",
               "EditorCaption": ""

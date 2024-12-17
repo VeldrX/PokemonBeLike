@@ -63,6 +63,13 @@
 
         </StackPanel>
 
+        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10">
+            <TextBlock Text="Journal de Combat :" FontSize="16" Foreground="White" />
+            <TextBlock Text="{Binding BattleLog}" FontSize="14" Foreground="White" TextWrapping="Wrap" Width="150"  />
+        </StackPanel>
+
+
+
         <!-- Skill Buttons Section -->
         <Grid HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10,0,10,80">
             <Grid.RowDefinitions>
@@ -76,27 +83,35 @@
 
             <!-- Skill Button 1 (Top Left) -->
             <Button Content="{Binding MonsterOfPlayerSpells[0].Name}" 
-                    Width="120" Height="25" Margin="5" 
-                    Grid.Row="0" Grid.Column="0" IsEnabled="False" 
-                    Background="#9B59B6" Foreground="Black" BorderBrush="Transparent" BorderThickness="1" />
+            Width="120" Height="25" Margin="5" 
+            Grid.Row="0" Grid.Column="0" 
+            Command="{Binding UseSkillCommand}" 
+            CommandParameter="{Binding MonsterOfPlayerSpells[0]}"
+            Background="#9B59B6" Foreground="White" BorderBrush="Transparent" BorderThickness="1" />
 
             <!-- Skill Button 2 (Top Right) -->
             <Button Content="{Binding MonsterOfPlayerSpells[1].Name}" 
-                    Width="120" Height="25" Margin="5" 
-                    Grid.Row="0" Grid.Column="1" IsEnabled="False"
-                    Background="#9B59B6" Foreground="Black" BorderBrush="Transparent" BorderThickness="1" />
+            Width="120" Height="25" Margin="5" 
+            Grid.Row="0" Grid.Column="1" 
+            Command="{Binding UseSkillCommand}" 
+            CommandParameter="{Binding MonsterOfPlayerSpells[1]}"
+            Background="#9B59B6" Foreground="White" BorderBrush="Transparent" BorderThickness="1" />
 
             <!-- Skill Button 3 (Bottom Left) -->
             <Button Content="{Binding MonsterOfPlayerSpells[2].Name}" 
-                    Width="120" Height="25" Margin="5" 
-                    Grid.Row="1" Grid.Column="0" IsEnabled="False"
-                    Background="#9B59B6" Foreground="Black" BorderBrush="Transparent" BorderThickness="1" />
+            Width="120" Height="25" Margin="5" 
+            Grid.Row="1" Grid.Column="0" 
+            Command="{Binding UseSkillCommand}" 
+            CommandParameter="{Binding MonsterOfPlayerSpells[2]}"
+            Background="#9B59B6" Foreground="White" BorderBrush="Transparent" BorderThickness="1" />
 
             <!-- Skill Button 4 (Bottom Right) -->
             <Button Content="{Binding MonsterOfPlayerSpells[3].Name}" 
-                    Width="120" Height="25" Margin="5" 
-                    Grid.Row="1" Grid.Column="1" IsEnabled="False"
-                    Background="#9B59B6" Foreground="Black" BorderBrush="Transparent" BorderThickness="1" />
+            Width="120" Height="25" Margin="5" 
+            Grid.Row="1" Grid.Column="1" 
+            Command="{Binding UseSkillCommand}" 
+            CommandParameter="{Binding MonsterOfPlayerSpells[3]}"
+            Background="#9B59B6" Foreground="White" BorderBrush="Transparent" BorderThickness="1" />
         </Grid>
 
         <!-- Score Display Section -->

@@ -38,12 +38,13 @@ Ceci est un jeu de combat de monstres développé en C# avec WPF (Windows Presen
 1. **Lancer le jeu** : Exécutez l'application.
 2. **Aller dans les Settings** : Dans Setting vous avez la possibilité de lier votre base de donné en donnant l'adresse du server sql (exemple :  "Server=MV_PERSONAL_LAP\SQLEXPRESS;Database=ExerciceMonster;Trusted_Connection=True;TrustServerCertificate=True;";).
 3. **Crée un compte** : Sur register vous avez la possibilité de crée un compte.
-3. **Se connecter** : Sur Login vous pouvez vous connecté a votre compte.
-3. **Jouer** : Le bouton Play vous envoie directement sur la page principale du jeu le combat (peu fonctionnel)
-3. **Pokedex** : Vous avez la possibilité d'accedé au Pokédex qui répertorie tous les pokémons du jeu , de plus vous avez 2 possibilités : 
+4. **Se connecter** : Sur Login vous pouvez vous connecté a votre compte.
+5. **Jouer** : Le bouton Play vous envoie directement sur la page principale du jeu le combat (peu fonctionnel)
+6. **Pokedex** : Vous avez la possibilité d'accedé au Pokédex qui répertorie tous les pokémons du jeu , de plus vous avez 2 possibilités : 
     - Soit selectionné le pokémon pour l'utiliser en combat
     - Soit aller voir ses information
-3. **AbilityDex** : Vous avez la possibilité d'accedé a l'AbilityDex qui répertorie toute les compétences du jeu , de plus vous avez la possibilité d'aller voir ses informations.
+7. **AbilityDex** : Vous avez la possibilité d'accedé a l'AbilityDex qui répertorie toute les compétences du jeu , de plus vous avez la possibilité d'aller voir ses informations.
+8. **Relancer** : Dans la page de combat il y a la possibilité de générer un nouvel ennemie.
 
 
 ---
