@@ -1,0 +1,563 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\view\\gameview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\view\\gameview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\viewmodel\\gameviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\viewmodel\\gameviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\viewmodel\\abilityinfoviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\viewmodel\\abilityinfoviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\view\\abilityinfoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\view\\abilityinfoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\viewmodel\\infoviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\viewmodel\\infoviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\viewmodel\\pokemoninfoviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\viewmodel\\pokemoninfoviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\model\\spell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\model\\spell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\view\\pokemonlisteview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\view\\pokemonlisteview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\viewmodel\\pokemonlisteviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\viewmodel\\pokemonlisteviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\model\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\model\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\model\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\model\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\model\\exercicemonstercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\model\\exercicemonstercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\view\\pokemoninfoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\view\\pokemoninfoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\viewmodel\\menuviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\viewmodel\\menuviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\view\\menuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\view\\menuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\viewmodel\\loginviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\viewmodel\\loginviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\view\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\view\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\viewmodel\\registerviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\viewmodel\\registerviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\viewmodel\\settingviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\viewmodel\\settingviewvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\view\\settingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\view\\settingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\view\\abilitylisteview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\view\\abilitylisteview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\viewmodel\\mainwindowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\viewmodel\\mainwindowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\view\\menuview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\view\\menuview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\view\\settingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\view\\settingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\mvvm\\viewmodel\\basevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\mvvm\\viewmodel\\basevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|c:\\users\\mv_pe\\onedrive\\documents\\ynov\\b2_(2024-2025)\\c#\\final_project_pokemonlike\\pokemonlike\\pokemonlike\\pokemonlike.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{657B3F2B-0CD9-49FA-90E0-9357D6E7BF49}|PokemonLike\\PokemonLike.csproj|solutionrelative:pokemonlike\\pokemonlike.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameViewVM.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\GameViewVM.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\ViewModel\\GameViewVM.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\GameViewVM.cs",
+              "RelativeToolTip": "PokemonLike\\MVVM\\ViewModel\\GameViewVM.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T10:04:41.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AbilityInfoView.xaml",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\AbilityInfoView.xaml",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\View\\AbilityInfoView.xaml",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\AbilityInfoView.xaml",
+              "RelativeToolTip": "PokemonLike\\MVVM\\View\\AbilityInfoView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T08:22:06.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AbilityInfoViewVM.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\AbilityInfoViewVM.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\ViewModel\\AbilityInfoViewVM.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\AbilityInfoViewVM.cs",
+              "RelativeToolTip": "PokemonLike\\MVVM\\ViewModel\\AbilityInfoViewVM.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T08:34:39.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameView.xaml",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\GameView.xaml",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\View\\GameView.xaml",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\GameView.xaml*",
+              "RelativeToolTip": "PokemonLike\\MVVM\\View\\GameView.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T10:03:35.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PokemonLike\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MainWindow.xaml",
+              "RelativeToolTip": "PokemonLike\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T16:36:06.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InfoViewVM.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\InfoViewVM.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\ViewModel\\InfoViewVM.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\InfoViewVM.cs",
+              "RelativeToolTip": "PokemonLike\\MVVM\\ViewModel\\InfoViewVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T11:29:27.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PokemonInfoViewVM.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\PokemonInfoViewVM.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\ViewModel\\PokemonInfoViewVM.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\PokemonInfoViewVM.cs",
+              "RelativeToolTip": "PokemonLike\\MVVM\\ViewModel\\PokemonInfoViewVM.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T20:34:56.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Spell.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\Model\\Spell.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\Model\\Spell.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\Model\\Spell.cs",
+              "RelativeToolTip": "PokemonLike\\Model\\Spell.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T16:27:14.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PokemonListeView.xaml",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\PokemonListeView.xaml",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\View\\PokemonListeView.xaml",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\PokemonListeView.xaml",
+              "RelativeToolTip": "PokemonLike\\MVVM\\View\\PokemonListeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-14T04:23:14.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Monster.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\Model\\Monster.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\Model\\Monster.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\Model\\Monster.cs",
+              "RelativeToolTip": "PokemonLike\\Model\\Monster.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T04:19:21.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\Model\\Player.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\Model\\Player.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\Model\\Player.cs",
+              "RelativeToolTip": "PokemonLike\\Model\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:01:47.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PokemonListeViewVM.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\PokemonListeViewVM.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\ViewModel\\PokemonListeViewVM.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\PokemonListeViewVM.cs",
+              "RelativeToolTip": "PokemonLike\\MVVM\\ViewModel\\PokemonListeViewVM.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAmwFkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T04:44:56.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExerciceMonsterContext.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\Model\\ExerciceMonsterContext.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\Model\\ExerciceMonsterContext.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\Model\\ExerciceMonsterContext.cs",
+              "RelativeToolTip": "PokemonLike\\Model\\ExerciceMonsterContext.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAiwHIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T12:56:15.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PokemonInfoView.xaml",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\PokemonInfoView.xaml",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\View\\PokemonInfoView.xaml",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\PokemonInfoView.xaml",
+              "RelativeToolTip": "PokemonLike\\MVVM\\View\\PokemonInfoView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T18:08:42.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MenuViewVM.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\MenuViewVM.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\ViewModel\\MenuViewVM.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\MenuViewVM.cs",
+              "RelativeToolTip": "PokemonLike\\MVVM\\ViewModel\\MenuViewVM.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAYwC4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T09:04:19.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MenuView.xaml",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\MenuView.xaml",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\View\\MenuView.xaml",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\MenuView.xaml",
+              "RelativeToolTip": "PokemonLike\\MVVM\\View\\MenuView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T09:14:59.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginViewVM.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\LoginViewVM.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\ViewModel\\LoginViewVM.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\LoginViewVM.cs",
+              "RelativeToolTip": "PokemonLike\\MVVM\\ViewModel\\LoginViewVM.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwC4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T08:29:37.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\LoginView.xaml",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\View\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\LoginView.xaml",
+              "RelativeToolTip": "PokemonLike\\MVVM\\View\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T19:56:00.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\PasswordHasher.cs",
+              "RelativeToolTip": "PokemonLike\\MVVM\\PasswordHasher.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T08:55:12.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RegisterView.xaml",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\RegisterView.xaml",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\View\\RegisterView.xaml",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\RegisterView.xaml",
+              "RelativeToolTip": "PokemonLike\\MVVM\\View\\RegisterView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T19:59:47.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\View\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\LoginView.xaml.cs",
+              "RelativeToolTip": "PokemonLike\\MVVM\\View\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T13:14:49.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegisterViewVM.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\RegisterViewVM.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\ViewModel\\RegisterViewVM.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\RegisterViewVM.cs",
+              "RelativeToolTip": "PokemonLike\\MVVM\\ViewModel\\RegisterViewVM.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAYwG8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T08:40:52.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SettingViewVM.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\SettingViewVM.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\ViewModel\\SettingViewVM.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\SettingViewVM.cs",
+              "RelativeToolTip": "PokemonLike\\MVVM\\ViewModel\\SettingViewVM.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T10:04:54.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\Model\\Login.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\Model\\Login.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\Model\\Login.cs",
+              "RelativeToolTip": "PokemonLike\\Model\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T09:16:32.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SettingView.xaml",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\SettingView.xaml",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\View\\SettingView.xaml",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\SettingView.xaml",
+              "RelativeToolTip": "PokemonLike\\MVVM\\View\\SettingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T09:34:23.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AbilityListeView.xaml",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\AbilityListeView.xaml",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\View\\AbilityListeView.xaml",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\AbilityListeView.xaml",
+              "RelativeToolTip": "PokemonLike\\MVVM\\View\\AbilityListeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-15T15:20:19.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PokemonLike\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T16:36:06.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MainWindowVM.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\MainWindowVM.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\ViewModel\\MainWindowVM.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\MainWindowVM.cs",
+              "RelativeToolTip": "PokemonLike\\MVVM\\ViewModel\\MainWindowVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T09:04:26.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MenuView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\MenuView.xaml.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\View\\MenuView.xaml.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\MenuView.xaml.cs",
+              "RelativeToolTip": "PokemonLike\\MVVM\\View\\MenuView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T09:30:37.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\App.xaml",
+              "RelativeDocumentMoniker": "PokemonLike\\App.xaml",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\App.xaml",
+              "RelativeToolTip": "PokemonLike\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T18:22:22.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SettingView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\SettingView.xaml.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\View\\SettingView.xaml.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\View\\SettingView.xaml.cs",
+              "RelativeToolTip": "PokemonLike\\MVVM\\View\\SettingView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T09:36:12.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BaseVM.cs",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\BaseVM.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\MVVM\\ViewModel\\BaseVM.cs",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\MVVM\\ViewModel\\BaseVM.cs",
+              "RelativeToolTip": "PokemonLike\\MVVM\\ViewModel\\BaseVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T12:54:30.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PokemonLike.csproj",
+              "DocumentMoniker": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\PokemonLike.csproj",
+              "RelativeDocumentMoniker": "PokemonLike\\PokemonLike.csproj",
+              "ToolTip": "C:\\Users\\MV_pe\\OneDrive\\Documents\\Ynov\\B2_(2024-2025)\\C#\\Final_Project_PokemonLike\\PokemonLike\\PokemonLike\\PokemonLike.csproj",
+              "RelativeToolTip": "PokemonLike\\PokemonLike.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-01T13:53:02.477Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

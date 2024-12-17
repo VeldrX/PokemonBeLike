@@ -1,0 +1,101 @@
+﻿<UserControl x:Class="PokemonLike.MVVM.View.GameView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PokemonLike.MVVM.View"
+             xmlns:viewmodel="clr-namespace:PokemonLike.MVVM.ViewModel"
+             d:DataContext="{d:DesignInstance Type=viewmodel:GameViewVM}"
+             mc:Ignorable="d" d:DesignHeight="450" d:DesignWidth="800">
+
+    <Grid Background="Gray" Margin="20">
+
+        <!-- Menu Buttons -->
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10">
+            <Button Content="PokeDex" Width="120" Margin="5" Command="{Binding NavigatePokemonListCommand}"/>
+            <Button Content="AbilityDex" Width="120" Margin="5" Command="{Binding NavigateAbilityListCommand}"/>
+            <Button Content="Menu" Width="120" Margin="5" Command="{Binding NavigateMenuCommand}"/>
+        </StackPanel>
+
+        <!-- Combat Section -->
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Player Info -->
+            <StackPanel Grid.Column="0" HorizontalAlignment="Center">
+                <TextBlock Text="Votre Pokémon:" FontSize="16" Foreground="White" />
+                <TextBlock Text="{Binding MonsterOfPlayer.Name}" FontSize="18" FontWeight="Bold" Foreground="White" />
+                <TextBlock Text="HP Restants:" FontSize="16" Foreground="White" />
+                <TextBlock FontSize="16" Foreground="White">
+                    <Run Text="{Binding MonsterOfPlayerCurrentHP}" />
+                    <Run Text=" / " />
+                    <Run Text="{Binding MonsterOfPlayerHP}" />
+                </TextBlock>
+            </StackPanel>
+
+            <!-- VS Text -->
+            <TextBlock Text="VS" FontSize="40" FontWeight="Bold" 
+                       Foreground="White" HorizontalAlignment="Center" 
+                       VerticalAlignment="Center" Grid.Column="1" Margin="10" />
+
+            <!-- Enemy Info -->
+            <StackPanel Grid.Column="2" HorizontalAlignment="Center">
+                <TextBlock Text="Ennemi Pokémon:" FontSize="16" Foreground="White" />
+                <TextBlock Text="{Binding MonsterOfEnnemy.Name}" FontSize="18" FontWeight="Bold" Foreground="White" />
+                <TextBlock Text="HP Restants:" FontSize="16" Foreground="White" />
+                <TextBlock FontSize="16" Foreground="White">
+                    <Run Text="{Binding MonsterOfEnnemyCurrentHP}" />
+                    <Run Text=" / " />
+                    <Run Text="{Binding MonsterOfEnnemyHP}" />
+                </TextBlock>
+            </StackPanel>
+        </Grid>
+
+        <!-- Battle Buttons -->
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10">
+            <Button Content="Relancer un Combat" Width="200" Margin="5" Command="{Binding RestartBattleCommand}" />
+        </StackPanel>
+
+        <!-- Skill Buttons Section with Grid for corner positioning -->
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10, 0, 10, 40">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Skill Button 1 (Top Left) -->
+            <Button Content="{Binding MonsterOfPlayerSpells[0].Name}" 
+                    Width="120" Height="25" Margin="5" 
+                    Grid.Row="0" Grid.Column="0" IsEnabled="False"/>
+
+            <!-- Skill Button 2 (Top Right) -->
+            <Button Content="{Binding MonsterOfPlayerSpells[1].Name}" 
+                    Width="120" Height="25" Margin="5" 
+                    Grid.Row="0" Grid.Column="1" IsEnabled="False"/>
+
+            <!-- Skill Button 3 (Bottom Left) -->
+            <Button Content="{Binding MonsterOfPlayerSpells[2].Name}" 
+                    Width="120" Height="25" Margin="5" 
+                    Grid.Row="1" Grid.Column="0" IsEnabled="False"/>
+
+            <!-- Skill Button 4 (Bottom Right) -->
+            <Button Content="{Binding MonsterOfPlayerSpells[3].Name}" 
+                    Width="120" Height="25" Margin="5" 
+                    Grid.Row="1" Grid.Column="1" IsEnabled="False"/>
+        </Grid>
+
+        <!-- Score Display -->
+        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10">
+            <TextBlock Text="Score: " FontSize="16" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10,10,50,0"/>
+            <TextBlock Text="{Binding Score}" FontSize="16" FontWeight="Bold" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="100,10,50,0"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
